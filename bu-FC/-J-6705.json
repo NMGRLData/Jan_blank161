@@ -1,0 +1,118 @@
+{
+    "aliquot": 6705, 
+    "analysis_type": "blank_unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "", 
+    "commit": "da33cb55cbfafa50b7940f0df325f98ecc201b5f", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": -2672578630983061919, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 1, 
+            "teststr": "Ar40>5000.0"
+        }, 
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": 2706307186091723936, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 10, 
+            "teststr": "Ar40>5000.0"
+        }, 
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": -8252778357748063314, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 50, 
+            "teststr": "age>100.0"
+        }, 
+        {
+            "analysis_types": null, 
+            "frequency": 1, 
+            "hash_id": -3678437543325592225, 
+            "level": null, 
+            "location": "scripts/conditionals/kevin.yaml", 
+            "ntrips": 1, 
+            "start_count": 50, 
+            "teststr": "Ar39.bs_corrected<1.0"
+        }
+    ], 
+    "detectors": {
+        "AX": {
+            "deflection": 165.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 10.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 320.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 725.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_co2.py", 
+    "identifier": "bu-FC-J", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 3, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Blank", 
+    "measurement": "jan_unknown400_120.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Jan_blank161", 
+    "sample": "blank_unknown", 
+    "spec_sha": "8adcd007a278bafdb04c3752611277e8170578e7", 
+    "timestamp": "2016-08-13T09:31:44.360895", 
+    "tripped_conditional": {
+        "context": "{'Ar39': 0.02202669850935248}", 
+        "hash_id": -3678437543325592225, 
+        "teststr": "Ar39<1.0"
+    }, 
+    "username": "", 
+    "uuid": "f6b55ba5-db6e-4d50-a7fe-b2cd1e1e877b"
+}
