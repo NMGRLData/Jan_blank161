@@ -1,0 +1,26 @@
+{
+    "beam_diameter": "", 
+    "cleanup_duration": 10.0, 
+    "commit": "f774a4fba1112572240343f06287b1f81a0e8a8b", 
+    "extract_device": "Fusions CO2", 
+    "extract_duration": 10.0, 
+    "extract_units": "", 
+    "extract_value": 0.0, 
+    "pattern": "", 
+    "positions": [
+        {
+            "is_degas": false, 
+            "position": "38", 
+            "x": null, 
+            "y": null, 
+            "z": null
+        }
+    ], 
+    "ramp_duration": 0.0, 
+    "ramp_rate": 0.0, 
+    "request": "Tm8gUmVzcG9uc2U=", 
+    "response": "Tm8gUmVzcG9uc2U=", 
+    "sblob": "", 
+    "tray": "", 
+    "weight": 0.0
+}
