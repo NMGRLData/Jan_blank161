@@ -80,14 +80,20 @@
         "value": 0.6682765072397736
     }, 
     "Ar41": {
-        "error": 0.006927887738714994, 
+        "error": 0.003327233567017133, 
+        "filter_outliers": true, 
         "filter_outliers_dict": {
             "filter_outliers": true, 
             "iterations": 1, 
             "std_devs": 2
         }, 
-        "fit": "linear", 
-        "value": -0.07180715907149882
+        "fit": "Average", 
+        "fn": 387, 
+        "include_baseline_error": false, 
+        "iterations": 1, 
+        "n": 400, 
+        "std_devs": 2, 
+        "value": -0.08284091662816481
     }, 
     "reviewed": true
 }
